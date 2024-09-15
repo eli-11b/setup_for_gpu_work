@@ -20,6 +20,17 @@ wget https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/
 sudo chmod +x cuda_12.6.1_560.35.03_linux.run
 sudo ./cuda_12.6.1_560.35.03_linux.run
 ```
+
+**Type Accept**
+
+<img src="https://github.com/user-attachments/assets/99e022eb-d858-42b1-902d-625d941ca025" width="350">
+
+**Select only driver adn toolkit**
+
+<img src="https://github.com/user-attachments/assets/b8073611-5165-4458-b55d-2301dbce6fb0" width="350">
+
+
+
 3. Install Nvidia-container-toolkit
 ```
 sudo apt install nvidia-container-toolkit
