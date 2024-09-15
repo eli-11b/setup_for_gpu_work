@@ -29,6 +29,12 @@ sudo ./cuda_12.6.1_560.35.03_linux.run
 
 <img src="https://github.com/user-attachments/assets/b8073611-5165-4458-b55d-2301dbce6fb0" width="350">
 
+OR
+
+**Silent mode install**
+```
+sudo ./cuda_12.6.1_560.35.03_linux.run -driver -toolkit -silent
+```
 
 
 3. Install Nvidia-container-toolkit
