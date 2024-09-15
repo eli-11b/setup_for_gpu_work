@@ -53,8 +53,7 @@ sudo systemctl restart docker
 
 6. Test in container to see if you can use/see your gpu(s) in container: (similiar results)
 ```
-docker run -it --gpus all --rm --name gpu-test nvidia/cuda:12.6.1-cudnn-devel-ubu
-ntu20.04 nvidia-smi
+docker run -it --gpus all --rm --name gpu-test nvidia/cuda:12.6.1-cudnn-devel-ubuntu20.04 nvidia-smi
 ```
 <img src="https://github.com/user-attachments/assets/1bb4d845-b16a-4512-9597-897ac1dc50b2" width="350">
 
