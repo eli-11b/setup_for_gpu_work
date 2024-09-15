@@ -50,6 +50,8 @@ sudo systemctl restart docker
 docker run -it --gpus all --rm --name gpu-test nvidia/cuda:12.6.1-cudnn-devel-ubu
 ntu20.04 nvidia-smi
 ```
+<img src="https://github.com/user-attachments/assets/1bb4d845-b16a-4512-9597-897ac1dc50b2" width="350">
+
 
 7. Set persistence mode
 ```
